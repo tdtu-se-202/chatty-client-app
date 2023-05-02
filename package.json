@@ -1,7 +1,7 @@
 {
-  "displayName": "My Awesome Electron App",
+  "displayName": "Chatty App",
   "name": "my-awesome-electron-app",
-  "description": "Your awesome app description",
+  "description": "An awesome chatty app",
   "version": "2.0.4",
   "main": "./node_modules/.dev/main/index.js",
   "resources": "src/resources",
@@ -24,6 +24,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "antd": "^5.4.6",
     "electron-router-dom": "^1.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
