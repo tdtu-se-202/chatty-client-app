@@ -28,7 +28,7 @@ export function MainScreen() {
 
   return (
     <Container>
-      <Heading>Hi, {App.username || 'there'}! 👋</Heading>
+      <Heading>Hi, there! 👋</Heading>
 
       <h2>It's time to build something awesome! ✨</h2>
 
@@ -39,6 +39,8 @@ export function MainScreen() {
         >
           Open About Window
         </Button>
+
+        <Button onClick={() => navigate('login')}>Go to Login Page</Button>
 
         <Button onClick={() => navigate('anotherScreen')}>
           Go to Another screen
