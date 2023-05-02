@@ -14,7 +14,7 @@ export async function MainWindow() {
     show: false,
     center: true,
     movable: true,
-    resizable: false,
+    resizable: true,
     alwaysOnTop: true,
     autoHideMenuBar: true,
 
@@ -27,7 +27,7 @@ export async function MainWindow() {
     if (ENVIRONMENT.IS_DEV) {
       window.webContents.openDevTools({ mode: 'detach' })
     }
-
+    window.maximize()
     window.show()
   })
 
